@@ -25,7 +25,7 @@ for(var i = 0; i < array.length; i++){
 
 function calculateSTI(array){
   var newArray = [];
-
+// added [i] to arrays to pass the correct values into the new array
   newArray[0] = array[i][0];
 
   var employeeNumber = array[i][1];
@@ -36,7 +36,7 @@ function calculateSTI(array){
   if(bonus > 0.13){
     bonus = 0.13;
   }
-
+//added spaces down there along with the MAth.round
   newArray[1] = ' ' + bonus;
   newArray[2] = ' ' + Math.round(baseSalary * (1.0 + bonus));
   newArray[3] = ' ' + Math.round(baseSalary * bonus);
@@ -63,6 +63,7 @@ function getBaseSTI(reviewScore){
       basePercent = 0.10;
       break;
   }
+  //removed the "-" from the basePercent return
   return basePercent;
 }
 
