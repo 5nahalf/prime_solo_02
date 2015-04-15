@@ -1,0 +1,13 @@
+ul {
+	text-align: center;
+	color: teal;
+	background-color: lightgray;
+	margin: 0 100px 50px 100px;
+	border-radius: 5px;
+	list-style-type: none;
+	font-weight: bold;
+}
+body {
+	background-color: darkgray;
+
+}
